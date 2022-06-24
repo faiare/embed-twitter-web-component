@@ -1,7 +1,7 @@
 {
   "name": "embed-twitter-web-component",
   "description": "Twitter Embed Web Component.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/embed-twitter.js",
   "license": "MIT",
   "files": [
