@@ -11,8 +11,8 @@ type Props = {
 const heightStore: {
   [tweetId: string]: string;
 } = {}
-const containerClassName = 'embed-tweet-container'
-const fallbackLinkClassName = 'embed-tweet-link'
+const containerClassName = 'embed-twitter-container'
+const fallbackLinkClassName = 'embed-twitter-link'
 
 const App = ({src, align = 'center'}: Props) => {
   const ref = useRef<HTMLDivElement | null>(null);
